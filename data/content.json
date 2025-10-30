@@ -76,29 +76,19 @@
         },
         {
           "id": "generate-keys",
-          "title": "1. Generate Public and Private Key Pair"
-        },
-        {
-          "id": "license-key",
-          "title": "2. Generate a License Key"
-        },
-        {
-          "id": "verify-key",
-          "title": "3. Verify a License Key"
-        },
-        {
-          "id": "activation",
-          "title": "License Activation in Google Apps Script"
-        },
-        {
-          "id": "limitations",
-          "title": "The Limitations"
+          "title": "Implementation Steps"
         }
       ],
       "content": {
         "introduction": "You are running a small software business that sells digital downloads - apps, plugins, or even templates. When the buyer completes the purchase, you need to provide them with a license key that they can use to activate and validate the software.",
         "sections": [
           {
+            "id": "advantages",
+            "heading": "The Advantages",
+            "content": "This approach has several advantages over traditional licensing systems that require a database to store and validate license keys."
+          },
+          {
+            "id": "generate-keys",
             "heading": "Here's how you can implement such a licensing system in your software:",
             "points": [
               "Generate a public and private key pair using the RSA algorithm.",
@@ -107,10 +97,6 @@
               "The buyer enters the license key in the software to activate it.",
               "The software verifies the license key using the public key."
             ]
-          },
-          {
-            "heading": "The Advantages",
-            "content": "This approach has several advantages over traditional licensing systems that require a database to store and validate license keys."
           }
         ]
       }
@@ -126,20 +112,13 @@
         {
           "id": "introduction",
           "title": "What are Cron Expressions"
-        },
-        {
-          "id": "examples",
-          "title": "Cron Expression Examples"
-        },
-        {
-          "id": "implementation",
-          "title": "Using Cron in Apps Script"
         }
       ],
       "content": {
         "introduction": "Cron expressions are a powerful way to schedule tasks in Google Apps Script. They allow you to create complex time-based triggers with a simple syntax.",
         "sections": [
           {
+            "id": "introduction",
             "heading": "What are Cron Expressions",
             "content": "A cron expression is a string consisting of six or seven fields separated by white space that represents a set of times."
           }
@@ -157,16 +136,13 @@
         {
           "id": "shortcuts",
           "title": "NPM Command Shortcuts"
-        },
-        {
-          "id": "tips",
-          "title": "Productivity Tips"
         }
       ],
       "content": {
         "introduction": "NPM (Node Package Manager) is an essential tool for JavaScript developers. Here are some tips and tricks to help you work more efficiently.",
         "sections": [
           {
+            "id": "shortcuts",
             "heading": "NPM Command Shortcuts",
             "content": "Learn the most useful NPM shortcuts that will save you time every day."
           }
@@ -184,16 +160,13 @@
         {
           "id": "search-operator",
           "title": "The Secret Search Operator"
-        },
-        {
-          "id": "how-to-use",
-          "title": "How to Use It"
         }
       ],
       "content": {
         "introduction": "Gmail has a hidden search operator that can help you find all bulk emails, newsletters, and promotional messages in your inbox instantly.",
         "sections": [
           {
+            "id": "search-operator",
             "heading": "The Secret Search Operator",
             "content": "Use the 'category:promotions OR category:updates' search operator to find all bulk emails."
           }
@@ -211,16 +184,13 @@
         {
           "id": "importrange",
           "title": "Using IMPORTRANGE"
-        },
-        {
-          "id": "query",
-          "title": "Filtering with QUERY"
         }
       ],
       "content": {
         "introduction": "Google Sheets makes it easy to import data from one spreadsheet to another. This tutorial shows you how to use IMPORTRANGE and QUERY functions together.",
         "sections": [
           {
+            "id": "importrange",
             "heading": "Using IMPORTRANGE",
             "content": "The IMPORTRANGE function allows you to import data from another Google Sheet."
           }
@@ -238,16 +208,13 @@
         {
           "id": "formula",
           "title": "The Formula"
-        },
-        {
-          "id": "examples",
-          "title": "Examples"
         }
       ],
       "content": {
         "introduction": "Convert postal addresses in Google Sheets into clickable links that open Google Maps. This simple formula makes it easy to navigate to any address.",
         "sections": [
           {
+            "id": "formula",
             "heading": "The Formula",
             "content": "Use the HYPERLINK function combined with the Google Maps URL structure to create clickable address links."
           }

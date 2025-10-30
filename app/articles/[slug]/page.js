@@ -9,8 +9,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ArticlePage({ params }) {
-  const article = contentData.articles.find((a) => a.slug === params.slug);
+export default async function ArticlePage({ params }) {
+  const { slug } = await params;
+  const article = contentData.articles.find((a) => a.slug === slug);
   
   if (!article) {
     notFound();
@@ -53,7 +54,7 @@ export default function ArticlePage({ params }) {
               )}
               
               {article.content.sections && article.content.sections.map((section, index) => (
-                <div key={index} className="mb-8">
+                <div key={index} id={section.id} className="mb-8 scroll-mt-24">
                   {section.heading && (
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {section.heading}

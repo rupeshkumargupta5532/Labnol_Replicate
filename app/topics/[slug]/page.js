@@ -8,8 +8,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function TopicPage({ params }) {
-  const topic = contentData.topics.find((t) => t.slug === params.slug);
+export default async function TopicPage({ params }) {
+  const { slug } = await params;
+  const topic = contentData.topics.find((t) => t.slug === slug);
   
   if (!topic) {
     notFound();
