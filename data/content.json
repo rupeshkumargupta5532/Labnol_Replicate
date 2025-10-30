@@ -1,0 +1,258 @@
+{
+  "topics": [
+    {
+      "id": "javascript",
+      "name": "Javascript",
+      "slug": "javascript",
+      "description": "Tips and tutorials for Javascript"
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "slug": "gmail",
+      "description": "Gmail tips, tricks and tutorials"
+    },
+    {
+      "id": "google-sheets",
+      "name": "Google Sheets",
+      "slug": "google-sheets",
+      "description": "Google Sheets formulas and automation"
+    },
+    {
+      "id": "google-apps-script",
+      "name": "Google Apps Script",
+      "slug": "google-apps-script",
+      "description": "Automate Google Workspace with Apps Script"
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "slug": "google-drive",
+      "description": "Google Drive tips and tricks"
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "slug": "google-maps",
+      "description": "Google Maps integration and tutorials"
+    },
+    {
+      "id": "pdf",
+      "name": "PDF",
+      "slug": "pdf",
+      "description": "PDF tools and utilities"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "slug": "youtube",
+      "description": "YouTube tips and tricks"
+    },
+    {
+      "id": "google-forms",
+      "name": "Google Forms",
+      "slug": "google-forms",
+      "description": "Google Forms tutorials and automation"
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "slug": "india",
+      "description": "Tech and digital tools for India"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "slug": "verify-software-license-keys-241007",
+      "title": "How to Generate Software License Keys and Verify Them",
+      "description": "Learn how to generate software license keys and verify them using a Crypto API. The keys can be activated offline and do not require a database.",
+      "date": "Oct 7, 2024",
+      "tags": ["javascript"],
+      "tableOfContents": [
+        {
+          "id": "advantages",
+          "title": "The Advantages"
+        },
+        {
+          "id": "generate-keys",
+          "title": "1. Generate Public and Private Key Pair"
+        },
+        {
+          "id": "license-key",
+          "title": "2. Generate a License Key"
+        },
+        {
+          "id": "verify-key",
+          "title": "3. Verify a License Key"
+        },
+        {
+          "id": "activation",
+          "title": "License Activation in Google Apps Script"
+        },
+        {
+          "id": "limitations",
+          "title": "The Limitations"
+        }
+      ],
+      "content": {
+        "introduction": "You are running a small software business that sells digital downloads - apps, plugins, or even templates. When the buyer completes the purchase, you need to provide them with a license key that they can use to activate and validate the software.",
+        "sections": [
+          {
+            "heading": "Here's how you can implement such a licensing system in your software:",
+            "points": [
+              "Generate a public and private key pair using the RSA algorithm.",
+              "Sign a message with the private key. The message contains the buyer's email address and the software SKU.",
+              "The license key is a combination of the message and the signature.",
+              "The buyer enters the license key in the software to activate it.",
+              "The software verifies the license key using the public key."
+            ]
+          },
+          {
+            "heading": "The Advantages",
+            "content": "This approach has several advantages over traditional licensing systems that require a database to store and validate license keys."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "slug": "cron-expressions-apps-script-230902",
+      "title": "How to Use Cron Expressions to Create Time Triggers in Apps Script",
+      "description": "Learn how to use cron expressions to schedule and automate tasks in Google Apps Script. Create complex time-based triggers with ease.",
+      "date": "Sep 2, 2023",
+      "tags": ["javascript", "google-apps-script"],
+      "tableOfContents": [
+        {
+          "id": "introduction",
+          "title": "What are Cron Expressions"
+        },
+        {
+          "id": "examples",
+          "title": "Cron Expression Examples"
+        },
+        {
+          "id": "implementation",
+          "title": "Using Cron in Apps Script"
+        }
+      ],
+      "content": {
+        "introduction": "Cron expressions are a powerful way to schedule tasks in Google Apps Script. They allow you to create complex time-based triggers with a simple syntax.",
+        "sections": [
+          {
+            "heading": "What are Cron Expressions",
+            "content": "A cron expression is a string consisting of six or seven fields separated by white space that represents a set of times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "slug": "npm-tips-tricks-230331",
+      "title": "Useful NPM Tips and Tricks for Developers to Boost Productivity",
+      "description": "Discover essential NPM commands and tricks that will help you work faster and smarter with Node.js packages.",
+      "date": "Mar 31, 2023",
+      "tags": ["javascript"],
+      "tableOfContents": [
+        {
+          "id": "shortcuts",
+          "title": "NPM Command Shortcuts"
+        },
+        {
+          "id": "tips",
+          "title": "Productivity Tips"
+        }
+      ],
+      "content": {
+        "introduction": "NPM (Node Package Manager) is an essential tool for JavaScript developers. Here are some tips and tricks to help you work more efficiently.",
+        "sections": [
+          {
+            "heading": "NPM Command Shortcuts",
+            "content": "Learn the most useful NPM shortcuts that will save you time every day."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "slug": "gmail-unsubscribe-search-operator-250728",
+      "title": "Secret Gmail Hack to Find All Bulk Emails in your Inbox",
+      "description": "Use this secret Gmail search operator to find all unwanted emails that are either newsletters or promotional emails.",
+      "date": "Jul 28, 2024",
+      "tags": ["gmail"],
+      "tableOfContents": [
+        {
+          "id": "search-operator",
+          "title": "The Secret Search Operator"
+        },
+        {
+          "id": "how-to-use",
+          "title": "How to Use It"
+        }
+      ],
+      "content": {
+        "introduction": "Gmail has a hidden search operator that can help you find all bulk emails, newsletters, and promotional messages in your inbox instantly.",
+        "sections": [
+          {
+            "heading": "The Secret Search Operator",
+            "content": "Use the 'category:promotions OR category:updates' search operator to find all bulk emails."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "slug": "import-google-sheets-query-250708",
+      "title": "How to Import Data from One Google Sheet to Another - Learn with Practical Examples",
+      "description": "Learn how to import data from one Google Sheet to another using the IMPORTRANGE and QUERY functions. You can filter data or only import specific rows that meet certain criteria.",
+      "date": "Jul 8, 2024",
+      "tags": ["google-sheets"],
+      "tableOfContents": [
+        {
+          "id": "importrange",
+          "title": "Using IMPORTRANGE"
+        },
+        {
+          "id": "query",
+          "title": "Filtering with QUERY"
+        }
+      ],
+      "content": {
+        "introduction": "Google Sheets makes it easy to import data from one spreadsheet to another. This tutorial shows you how to use IMPORTRANGE and QUERY functions together.",
+        "sections": [
+          {
+            "heading": "Using IMPORTRANGE",
+            "content": "The IMPORTRANGE function allows you to import data from another Google Sheet."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "slug": "google-maps-address-links-230703",
+      "title": "How to Link Postal Addresses to Google Maps in Google Sheets",
+      "description": "Learn how to make postal addresses clickable in Google Sheets with a formula. Create hyperlinks that directly link an address to Google Maps places.",
+      "date": "Jul 3, 2023",
+      "tags": ["google-maps", "google-sheets"],
+      "tableOfContents": [
+        {
+          "id": "formula",
+          "title": "The Formula"
+        },
+        {
+          "id": "examples",
+          "title": "Examples"
+        }
+      ],
+      "content": {
+        "introduction": "Convert postal addresses in Google Sheets into clickable links that open Google Maps. This simple formula makes it easy to navigate to any address.",
+        "sections": [
+          {
+            "heading": "The Formula",
+            "content": "Use the HYPERLINK function combined with the Google Maps URL structure to create clickable address links."
+          }
+        ]
+      }
+    }
+  ]
+}
